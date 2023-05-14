@@ -31,11 +31,9 @@ namespace Treino_prova__Devs2Blu
 
             foreach (char c in checkList)
             {
-                if (c == '(')
-                {
-                    count1++;
-                    if (c == ')') count2++;
-                }
+                if (c == '(')count1++;
+                if (c == ')') count2++;
+            }
 
                 if (count1 == count2) { Console.WriteLine("True"); }
                 else { Console.WriteLine("False"); }
@@ -43,4 +41,4 @@ namespace Treino_prova__Devs2Blu
             }
         }
     }
-}
+
