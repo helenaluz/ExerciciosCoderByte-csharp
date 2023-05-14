@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Treino_prova__Devs2Blu.FormattedDivion</StartupObject>
+    <StartupObject>Treino_prova__Devs2Blu.LetterCount</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,7 @@
     <Compile Include="Divisão.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="FormattedDivion.cs" />
+    <Compile Include="LetterCount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
