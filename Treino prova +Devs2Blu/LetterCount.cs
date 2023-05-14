@@ -34,7 +34,7 @@ namespace Treino_prova__Devs2Blu
                         }
                     }
                 }
-            }
+            } 
             int maxIndex = Array.IndexOf(contagem, contagem.Max());
             if (contagem[maxIndex] == 0) 
             {
