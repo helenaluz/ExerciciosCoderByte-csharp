@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Treino_prova__Devs2Blu.LetterCount</StartupObject>
+    <StartupObject>Treino_prova__Devs2Blu.NumberSearch</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +60,11 @@
     <Compile Include="Fibonacci.cs" />
     <Compile Include="FormattedDivion.cs" />
     <Compile Include="LetterCount.cs" />
+    <Compile Include="LookSaySequence.cs" />
+    <Compile Include="MostFreeTime.cs" />
+    <Compile Include="MutipleBrackets.cs" />
+    <Compile Include="NumberEncoding.cs" />
+    <Compile Include="NumberSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
