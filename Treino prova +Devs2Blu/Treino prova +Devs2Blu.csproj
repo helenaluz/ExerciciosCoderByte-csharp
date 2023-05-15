@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Treino_prova__Devs2Blu.NumberSearch</StartupObject>
+    <StartupObject>Treino_prova__Devs2Blu.PalindromeTwo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -65,6 +65,8 @@
     <Compile Include="MutipleBrackets.cs" />
     <Compile Include="NumberEncoding.cs" />
     <Compile Include="NumberSearch.cs" />
+    <Compile Include="OverLlappingRectangles.cs" />
+    <Compile Include="PalindromeTwo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

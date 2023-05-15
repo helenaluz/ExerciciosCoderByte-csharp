@@ -17,7 +17,31 @@ namespace Treino_prova__Devs2Blu
     {
         static void Main(string[] args)
         {
+            string[] strArr = new string[3];
+            for(int i = 0; i < strArr.Length; i++) { Console.WriteLine("Insira tempo: "); strArr[i] = Console.ReadLine(); }
+            Array.Sort(strArr);
 
+            TimeSpan[] TEMPOS = new  TimeSpan[3];
+            for(int i = 0 ; i < strArr.Length ; i++)
+            {
+                string str = strArr[i];
+                string[] tempos = str.Split('-');
+                string um = tempos[0];
+                string dois = tempos[1];
+                TimeSpan tempo2 = DateTime.Parse(dois).TimeOfDay;
+                TimeSpan tempo1 = DateTime.Parse(um).TimeOfDay;
+
+                if(tempo2 < tempo1)  tempo2 = tempo2.Add(new TimeSpan(24,0,0));
+                TimeSpan totalTempo = tempo2 - tempo1;
+                TimeSpan output = totalTempo;
+                TEMPOS[i] = output;
+            }
+
+            Array.Sort(TEMPOS);
+            TimeSpan maiorTempo  = TEMPOS[2];
+            string reuslt = $"{ maiorTempo.Hours:00};{maiorTempo.Minutes:00}";
+            Console.WriteLine(reuslt);
+            Console.ReadKey();
         }
     }
 }
