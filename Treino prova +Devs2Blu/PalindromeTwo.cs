@@ -17,7 +17,7 @@ namespace Treino_prova__Devs2Blu
             string str = Console.ReadLine();
 
             str.Trim();
-            char[] chars = str.ToCharArray();
+            char[] chars = str.ToCharArray(); 
             List<char> original = new List<char>();
             List<char> reverso = new List<char>();
             for (int i = 0; i < chars.Length; i++)
